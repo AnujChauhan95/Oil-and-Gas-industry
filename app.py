@@ -14,9 +14,9 @@ st.header("Enter Feature Values")
 
 # Input fields for each feature
 land_class = st.selectbox("Land Class", ["Federal", "Private", "State"])
-land_category = st.selectbox("Land Category", ["Onshore", "Offshore"])
+land_category = st.selectbox("Land Category", ["Onshore", "Offshore","Not Tied to a Lease"])
 state = st.selectbox("State", ["Texas", "Alaska", "California"])  # example states
-revenue_type = st.selectbox("Revenue Type", ["Royalty", "Bonus", "Rent"])
+revenue_type = st.selectbox("Royalties", ["Royalty", "Bonus", "Rent","Inspection fees","Civil penalties", "Other revenue"])
 lease_type = st.selectbox("Mineral Lease Type", ["Competitive", "Non-Competitive"])
 commodity = st.selectbox("Commodity", ["Oil", "Gas", "Coal"])
 county = st.selectbox("County", ["County A", "County B", "County C"])  # example counties
